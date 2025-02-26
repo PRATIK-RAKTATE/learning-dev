@@ -1,0 +1,169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+header {
+    height: 56px;
+    width: 1519.2px;
+}
+
+header img {
+    width: 210px;
+}
+
+#searchImg {
+    width: 500px;
+    height: 45px;
+    padding-left: 300px;
+}
+
+#create {
+    width: 221px;
+    height: 40px;
+    padding-left: 220px;
+}
+
+.hero {
+    display: flex;
+}
+
+.sidebar {
+    padding-left: 10px;
+}
+
+.uppersidebar {
+    width: 204px;
+    height: 491px;
+    padding-top: 10px;
+}
+
+.home {
+    display: flex;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.416);
+}
+
+.uppersidebar h2 {
+    padding-left: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.uppersidebar img {
+    width: 61px;
+}
+.home-images img{
+    width: 60px;
+}
+
+.below-home {
+    display: flex;
+}
+
+.below-home {
+    box-shadow: 0px 1px 0px gray;
+}
+
+.texts {
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+}
+
+.texts p {
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.texts2 p {
+    padding: 16px;
+    cursor: pointer;
+}
+
+.subscriptions {
+    width: 204px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.below-subscriptions {
+    display: flex;
+}
+
+.subscriptions h3 {
+    padding: 10px 0px;
+}
+
+.subscription-img {
+    width: 40px;
+}
+
+.subscription-img img {
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    padding-bottom: 20px;
+}    
+
+.channel , .views  {
+    color: #c5c2c2;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 0px;
+}
+
+.below-thumbnil {
+    display: flex;
+}
+
+#chanal-logo-images {
+    border-radius: 50%;
+    width: 30px;
+    padding-top: 10px;
+}
+
+.text3 {
+    padding-top: 9px;
+    padding-left: 4px;
+}    
+
+.text3 p {
+    padding-bottom: 32px;
+}    
+
+
+.video {
+    width: calc(100% - 204px);
+}    
+
+.top-btn button{
+    background: #3e3e3ec5;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 15px;
+    margin: 20px 6px;
+    border-radius: 8px;
+    border: none;
+}    
+
+
+.thumbnil-img {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}    
+
+.thumbnil-img img {
+    width: 406px;
+}    
+

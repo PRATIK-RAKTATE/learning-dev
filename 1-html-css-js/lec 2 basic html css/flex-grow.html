@@ -1,0 +1,47 @@
+<!-- 
+    flex-grow
+    it will used in two sibilling divs and 
+    work on the proportion 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .left{
+            background-color: red;
+            flex-grow: 1;
+        }
+
+        .right{
+            background-color: blue;
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>left</h1>
+        </div>
+        <div class="right">
+            <h1>right</h1>
+        </div>
+    </div>
+</body>
+</html>

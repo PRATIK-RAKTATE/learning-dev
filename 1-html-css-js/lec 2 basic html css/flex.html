@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1200px;
+            display: flex;
+
+        }
+
+        .left {
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .right {
+            background-color: red;
+            display: flex;
+            flex-grow: 3;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+                <h1>Left</h1>
+                <p>text Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="right">
+            <h1>col1</h1>
+            <h1>col1</h1>
+            <h1>col1</h1>
+            <h1>col2</h1>
+            <h1>col2</h1>
+            <h1>col2</h1>
+            <h1>col3</h1>
+            <h1>col3</h1>
+            <h1>col3</h1>
+        </div>
+    </div>
+</body>
+</html>

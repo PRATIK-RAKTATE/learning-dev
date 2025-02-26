@@ -1,0 +1,73 @@
+<!-- 
+✅ adding video on image
+    Adding div on div
+using position relative and absolute to childs
+
+.hero {
+    position: relative;
+}
+.hero img {
+    position: absolute;
+}
+
+.hero video {
+    position: absolute;
+
+✅ How to add google fonts
+    use import url add it at top of page
+    in css stylesheet
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+    give font family as we imported font name
+    font-family: "Open Sans";
+
+} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vsCodePage.css">
+
+</head>
+<body>
+    <header>
+       <span>
+        <p>VS code</p>
+        <p>Docs</p>
+        <p>Update</p>
+        <p>Blog</p>
+        <p>API</p>
+        <p>Extentions</p>
+        <p>FAQ</p>
+        <p>GitHub Copilet</p>
+       </span>
+        <div class="btn">
+            <button id="doc">Search a Docs</button>
+        <button id = "Download">Download</button>
+        </div>
+    </header>
+
+    <nav>
+        🚀Get <a href="#">&nbsp; GitHub Copilet Free &nbsp;</a> in VS code!
+    </nav>
+
+    <p id="bigTxt">
+        Your code editor. Redefined with AI.
+    </p>
+
+    <nav>
+        <button id="hero-download-btn" class="btns">Download for Windows</button>
+        <button id="hero-get-btn" class="btns" id="">Get Copilet free</button>
+    </nav>
+
+    <div class="hero">
+        <img src="/hero-background.webp" width="1300">
+        <video src="background video vs code.webm" autoplay muted loop width="1100px"></video>
+    </div>
+
+</body>
+</html>
