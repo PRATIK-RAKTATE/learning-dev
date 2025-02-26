@@ -1,0 +1,29 @@
+/* 
+Positioning
+div is block element they take all width of page
+span is inline element it will take only width which it need
+
+padding
+if we have to add distance
+
+Flexbox
+
+display: flex;
+when we use this property flex we are using flex display
+and childrens of that div dont take all width 
+
+justify-content
+by default value is flex-start
+
+justify-content: 
+                flex-end  // all children goes to end
+                center     //
+                space-between  // space between is same
+                space-around   // space between 2 divs is double and space in left
+                                 and  right is half of space in 2 divs
+                space-evenly
+
+
+
+*/
+

@@ -1,0 +1,83 @@
+Single Threaded js
+js runs code line by line on single thread. 
+
+JavaScript is single-threaded, meaning it can execute one task at a time within its main thread, but it uses asynchronous mechanisms to handle multiple tasks efficiently.
+
+2) Key Points:
+Single Execution Thread: Executes one task at a time in a linear sequence.
+Event Loop: Manages asynchronous tasks without blocking the main thread.
+Call Stack: Handles synchronous code execution.
+Web APIs & Task Queue: Offload asynchronous tasks like I/O operations.
+Non-blocking Behavior: Enables smooth execution despite being single-threaded.
+
+
+languages can be run in multiple thread 
+Java
+C++
+Python
+Go
+C#
+Rust
+Kotlin
+Ruby
+Swift
+Scala
+
+
+4. Garbage collected
+any language can manage memory in 3 way
+
+by chatgpt
+ Key Types of Memory Management:
+Manual Memory Management:
+
+Developers allocate and deallocate memory explicitly.
+Used in languages like C and C++.
+Automatic Garbage Collection (GC):
+
+The runtime environment automatically frees unused memory.
+Used in languages like Java, Python, and JavaScript.
+Reference Counting:
+
+Tracks the number of references to an object and deallocates it when no references remain.
+Used in Objective-C, Swift, and Python (CPython).
+
+by harkirat
+1) Garbage collected
+    automatically done by language
+    usually no pointer and memory issue
+    we cant do memory manegement manually
+    eg java js
+2) Manual
+    we have to allocat and dealocate memory yourself
+    can lead to daggling and memory issues
+    learning curve is high hence we do memory management
+    eg c
+3) The rust way 
+    Rust has its own model of memory management
+    Makes exactly safe to memory manegement
+
+conclusion
+js is beginer friendly
+ans -> no and yes
+    its beginer friendly but has loss of performance overheads.
+    bun is trying to solve these issues then js can compete with language like cpp and rust.
+
+
+
+
+Syntax of js
+1 variables
+    variabls are used to store data. 
+    we can declare variables using var,let and const
+
+2) datatypes 
+3) funtions
+4) operators
+5) loops    
+
+Complex data types
+
+Objects
+Array of Objects
+Objects of Objects

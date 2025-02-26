@@ -1,0 +1,210 @@
+CONTENTS
+1) HTML FORMS AND INPUT 
+2) CSS FLEX AND GRID
+3) JS NESTING OF OBJECT
+
+HTML
+<input type="text">
+Used for single-line text input, like usernames or first names.
+
+<input type="password">
+Masks input characters for secure text input, like passwords.
+
+<input type="email">
+Validates email addresses during input (e.g., "user@example.com").
+
+<input type="number">
+Allows numeric input with optional constraints like min, max, or step.
+
+<input type="date">
+Provides a date picker for selecting calendar dates.
+
+<input type="checkbox">
+Used for selecting one or more options from a set.
+
+<input type="radio">
+Used for selecting one option from a group.
+
+<input type="range">
+Creates a slider to select a numeric value within a range.
+
+<input type="file">
+Allows users to upload files from their device.
+
+<input type="submit">
+Sends form data to the server when clicked.
+
+CSS
+1) flexbox
+CSS display: flex; is a layout model that enables efficient alignment, distribution, and ordering of items within a container, even when their size is dynamic.
+Container-Level Properties:
+display: flex; or display: inline-flex;
+
+Values:
+flex (block-level container)
+inline-flex (inline-level container)
+
+flex-direction
+Values:
+row (default)
+row-reverse
+column
+column-reverse
+
+flex-wrap
+Values:
+nowrap (default)
+wrap
+wrap-reverse
+
+
+justify-content
+Values:
+flex-start (default)
+flex-end
+center
+space-between
+space-around
+space-evenly
+
+align-items
+Values:
+stretch (default)
+flex-start
+flex-end
+center
+baseline
+
+align-content
+Values:
+stretch (default)
+flex-start
+flex-end
+center
+space-between
+space-around
+
+gap
+Values:
+Any valid length (e.g., 10px, 1rem, 2%)
+
+
+Item-Level Properties:
+order
+Values:
+Any integer (default is 0)
+
+flex-grow
+Values:
+A non-negative integer (default is 0)
+
+flex-shrink
+Values:
+A non-negative integer (default is 1)
+
+flex-basis
+Values:
+A length (e.g., 100px, 50%) or auto (default)
+
+align-self
+Values:
+auto (default, inherits from align-items)
+flex-start
+flex-end
+center
+baseline
+stretch
+
+
+2) CSS GRID 
+CSS Grid Properties with Possible Values
+Container-Level Properties:
+display
+
+Values:
+grid (block-level grid container)
+inline-grid (inline-level grid container)
+grid-template-rows
+
+Values:
+Lengths (e.g., 100px, 1fr, auto)
+repeat() (e.g., repeat(3, 1fr))
+minmax() (e.g., minmax(100px, 1fr))
+grid-template-columns
+
+Values:
+Same as grid-template-rows.
+grid-template-areas
+
+Values:
+Strings representing area names (e.g., "header header").
+grid-auto-rows
+
+Values:
+Lengths (e.g., auto, 1fr, 100px).
+grid-auto-columns
+
+Values:
+Lengths (e.g., auto, 1fr, 100px).
+grid-auto-flow
+
+Values:
+row (default)
+column
+row dense
+column dense
+gap
+
+Values:
+Any length (e.g., 10px, 1rem).
+justify-items
+
+Values:
+stretch (default)
+start
+end
+center
+align-items
+
+Values:
+Same as justify-items.
+justify-content
+
+Values:
+start
+end
+center
+space-between
+space-around
+space-evenly
+align-content
+
+Values:
+Same as justify-content.
+Item-Level Properties:
+grid-column-start and grid-column-end
+
+Values:
+Line numbers (e.g., 1, -1)
+Named grid lines (e.g., header-start)
+span keyword (e.g., span 2)
+grid-row-start and grid-row-end
+
+Values:
+Same as grid-column-start and grid-column-end.
+grid-area
+
+Values:
+Name of an area (e.g., header)
+Shorthand for grid-row-start / grid-column-start / grid-row-end / grid-column-end.
+justify-self
+
+Values:
+stretch (default)
+start
+end
+center
+align-self
+
+Values:
+Same as justify-self.

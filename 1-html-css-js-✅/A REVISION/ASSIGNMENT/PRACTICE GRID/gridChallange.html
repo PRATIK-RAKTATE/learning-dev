@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid challange</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero{
+            width: 1170px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container{
+            height: 411px;
+        }
+
+        .btn {
+            display: flex;
+            width: 300px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .btn button {
+            border: none;
+            background-color: antiquewhite;
+            font-size: 20px;
+            height: 30px;
+            /* padding: 0px 15px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            
+            instead of this use gap: 10px;
+            in parent div
+
+            */
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <img src="baloonimg.png" alt="">
+            <div class="btn">
+                <button>bolloon</button>
+                <button>red</button>
+                <button>sky</button>
+                <button>blue</button>
+                <button>Hot air balloon</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="baloonimg.png" alt="">
+            <div class="btn">
+                <button>balloon</button>
+                <button>houses</button>
+                <button>train</button>
+                <button>harborside</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="baloonimg.png" alt="">
+            <div class="btn">
+                <button>bolloon</button>
+                <button>inflating</button>
+                <button>green</button>
+                <button>blue</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="baloonimg.png" alt="">
+            <div class="btn">
+                <button>balloon</button>
+                <button>summer</button>
+                <button>sun</button>
+                <button>sky</button>
+                <button>bright</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
