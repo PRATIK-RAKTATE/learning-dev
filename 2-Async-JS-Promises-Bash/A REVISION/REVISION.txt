@@ -1,0 +1,9 @@
+How to identify synchronous and asynchronous code in JS.
+=> callback function (but NOT always)
+=> Promises  (always async)
+=> async await (modern syntax) (always async)
+=> Web APIs such as 
+=> Database calls
+=> HTTP request
+    setTimeout, setInterval, fetch (always async)
+    fs module (show both sync or async)
