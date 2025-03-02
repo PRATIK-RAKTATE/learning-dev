@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hi</h1>
+    <button onclick="addTodo()">add h1</button>
+    <script>
+        // querySelector give only 1 tag which is first one in page
+
+        // documet - means whole html page
+        const h1tag = document.querySelector("h1");
+         
+        // finding content inside tag
+        const data = h1tag.innerHTML;
+        console.log(data);
+
+        function addTodo() {
+            const inputElement = document.querySelector('h1');
+            const value = inputElement.value;
+            console.log(value)
+        }
+    </script>
+</body>
+</html>

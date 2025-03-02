@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hi</h1>
+    <h1>hello</h1>
+    <h1 id="pratik">pratik</h1>
+    <div id="stopwatch">
+        1
+    </div>
+    <script>
+        const allH1 = document.querySelectorAll('h1');
+        console.log(allH1);
+
+        // if we need any specific when using querySelectorAll
+        // indexing of nodelist starts from 0
+        const thirdElement = document.querySelectorAll('h1')[2];
+        console.log(thirdElement);
+
+        let ctr = 0;
+        function callback() {
+            document.querySelector('h1').innerHTML = ctr;
+            ctr = ctr + 1;
+        }
+        setInterval(callback, 1000);
+    </script>
+</body>
+</html>

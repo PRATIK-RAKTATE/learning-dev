@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice Todo</title>
+</head>
+<body>
+    <input type="text"/>
+    <button onclick="addTodo()">Add ToDo</button>
+    
+    <script>
+        
+        function addTodo() {
+            let ctr = 1;
+            // Targeting the elements
+            const inputElement = document.querySelector('input');
+            const value = inputElement.value;
+            const buttonElement = document.querySelector('button');
+    
+            // creating the new elements to append
+            const createEl = document.createElement('div');
+            createEl.setAttribute('id', ctr);
+            createEl.innerHTML = '<div>' + value + '</div><buton onclick="DelTodo(' + ctr + ')"> Delete Todo</button>'
+    
+            // parent
+            const parent = document.querySelector('body');
+            parent.appendChild(createEl);
+            ctr = ctr + 1;
+        }
+
+        function DelTodo(index) {
+            const element = document.getElementById(index)
+            element.parentNode.removeChild(element);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: url(nature.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main { 
+    width: 300px;
+    height: 300px;
+
+    background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.196),
+    rgba(0, 255, 238, 0.08),
+    rgba(255, 255, 0, 0.105)
+    );
+    border-radius: 10px;
+    border: 2px solid rgba(146, 146, 146, 0.167);
+}
+
+input {
+    margin: 25px;
+    padding: 5px 10px;
+    background-color: transparent;    border: 1px solid rgba(128, 128, 128, 0.699);
+}
+
+button {
+    padding: 5px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+

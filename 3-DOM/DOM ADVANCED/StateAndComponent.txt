@@ -1,0 +1,4 @@
+State
+Variable part of app
+
+go to lectures slides and take notes

@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background: url(login\ background.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Sign{
+    height: 80vh;
+    width: 30vw;
+    /* background-color: rgba(0, 0, 0, 0.034); */
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    border-radius: 80px;
+}
+.login{
+    height: 80vh;
+    width: 30vw;
+    /* background-color: rgba(0, 0, 0, 0.034); */
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    border-radius: 80px;
+}
+h1{
+    font-size: 3em;
+    color: #fff;
+}
+.f1{
+    width :300px;
+    /* background-color: rgb(163, 117, 57); */
+    margin: 10px 0;
+    position: relative;
+    border-bottom: 3px solid #ffff;
+}
+input:focus ~ label,
+input:valid ~ label
+{
+    top: -5px;
+}
+.f1 input{
+    width: 100%;
+    height: 50px;
+    padding: 0 35px 0 10px;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.f1 label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #fff;
+    transition: 0.5s;
+}
+.f1 i{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    font-size: 1.2em;
+    color: #fff;
+}
+p{
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+p>a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+p>a:hover
+{
+   color: black;
+}
+#btn{
+    height: 50px;
+    width: 80%;
+    border-radius: 40px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#btn:hover{
+    background:transparent;
+}
+

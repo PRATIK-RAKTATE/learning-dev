@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>pratik</h1>
+    
+    <div id="todo-1">do your work</div>
+    <button onclick="deleteBtn(1)">delete</button>
+    <div id="todo-2">dont do your work</div>
+    <button onclick="deleteBtn(2)">delete</button>
+    <script>
+        // we can directly apply action to delete elemet themself
+        // we have to delete child using he's parent.
+
+        function deleteBtn(index) {
+            const elemet = document.getElementById('todo-' + index);
+            elemet.parentNode.removeChild(elemet);
+        }
+    </script>
+</body>
+</html>
